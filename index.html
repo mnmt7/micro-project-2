@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Micro-Project 2</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container container">
+        <img src="img/dappr.png" alt="Dapper Logo" class="logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Information</a></li>
+            <li>
+              <a href="#" class="nav-link">
+                <span>More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="down-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="search-box">
+              <input type="text" placeholder="Search..." class="search-input" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="search-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="hamburger-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <ul class="social-links">
+        <li>
+          <a href="#" class="social-link">
+            <img
+              src="img/whatsapp.png"
+              alt="Whatsapp logo"
+              class="social-logo"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <img
+              src="img/facebook.png"
+              alt="Facebook logo"
+              class="social-logo"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <img
+              src="img/twitter.png"
+              alt="Twitter logo"
+              class="social-logo twitter"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <div class="main-container">
+        <section class="notepad-container">
+          <img
+            src="img/screens.png"
+            alt="Multiple computer screens displaying code"
+            class="notepad-img"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......"
+            class="notepad"
+          ></textarea>
+        </section>
+
+        <section class="stats">
+          <div class="stat-box stat-questions">
+            <div>Total Questions</div>
+            <div>200,000</div>
+          </div>
+
+          <div class="stat-box stat-answers">
+            <div>Total Answers</div>
+            <div>105,000</div>
+          </div>
+
+          <div class="stat-box stat-participated">
+            <div>Participated</div>
+            <div>10,000</div>
+          </div>
+
+          <div class="stat-box stat-passed">
+            <div>Total Passed</div>
+            <div>6,000</div>
+          </div>
+        </section>
+
+        <section class="info-container">
+          <ul class="tabs">
+            <li><button class="tab-btn tab-btn-selected">Your Info</button></li>
+            <li><button class="tab-btn">Bookmarks</button></li>
+            <li><button class="tab-btn">Settings</button></li>
+          </ul>
+
+          <div class="selected-tab-details">
+            <h3 class="selected-tab-heading">Your Information</h3>
+            <div class="selected-tab-info-container">
+              <strong class="field">Name</strong> <span>:</span>
+              <span> Atul Singhal</span>
+
+              <strong class="field">Email</strong>
+              <span>:</span>
+              <span> atul@gmail.com</span>
+
+              <strong class="field">Phone</strong>
+              <span>:</span>
+              <span>9999999999</span>
+
+              <strong class="field">Marks</strong>
+              <span>:</span>
+              <span>500.00</span>
+            </div>
+            <button class="next-btn">
+              <span>Next</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="right-arrow-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+      <button class="support-btn">
+        <img
+          src="img/support.png"
+          alt="Support Icon"
+          width="190"
+          height="190"
+          class="support-icon"
+        />
+      </button>
+    </div>
+  </body>
+</html>
